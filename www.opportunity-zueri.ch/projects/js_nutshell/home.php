@@ -77,4 +77,7 @@
         <li><a href="#">link 6</a></li>
       </ul>
     </div>
+
+
+    <?php include 'footer.inc.php'; ?>
     

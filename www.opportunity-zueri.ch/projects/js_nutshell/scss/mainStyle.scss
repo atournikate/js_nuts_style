@@ -1,0 +1,32 @@
+// @import 'header';
+@import "footer";
+@import "variables";
+@import "buttons";
+//base
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  line-height: 1.6;
+}
+
+body {
+  background-color: $ltgreen;
+}
+
+header {
+  display: flex;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $techfont;
+}
+
+p {
+  font-family: $readfont;
+}

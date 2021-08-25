@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Template</title>
-    <link rel="stylesheet" href="../js_nutshell/css/bootstrap.css" />
-    <link rel="stylesheet" href="../js_nutshell/css/mainStyle.css  " />
+    <?php //echo "<pre>"; var_dump($_SERVER); echo "</pre>"; ?>
+    <link rel="stylesheet" href="/projects/js_nutshell/css/bootstrap.css" />
+    <link rel="stylesheet" href="/projects/js_nutshell/css/mainStyle.css" />
   </head>
   <body>
+    <div class="colorbar"></div>
     <header>
+      <img  id='logo' src="/projects/js_nutshell/images/javacorn.png" alt="A JavaScript logo shaped to replicate an acorn"> 
+      <a href="home.php">
+      </a>
       <h1>Header 1 Here</h1>
-
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-sm">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">primary</a>
           <img src="" alt="" class="siteLogo" />

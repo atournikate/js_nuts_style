@@ -23,9 +23,32 @@ html {
 body {
   background-color: #e7f0eb; }
 
-header {
-  display: flex; }
+.colorbar {
+  width: 100vw;
+  height: 50px;
+  background-color: linear-gradient(to bottom, #162f21, #506a54, #e7f0eb); }
 
+header {
+  display: flex;
+  width: 100vw;
+  background-color: #e7f0eb;
+  color: #162f21; }
+  header #logo {
+    position: relative;
+    padding: 0px 0px 0px 5px;
+    height: 250px;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out; }
+@keyframes logo {
+  0% {
+    transform: rotate(12deg);
+    left: 18px; }
+  100% {
+    transform: rotate(8deg);
+    left: 35px; } }
 h1,
 h2,
 h3 {

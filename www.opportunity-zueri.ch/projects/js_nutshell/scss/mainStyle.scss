@@ -2,6 +2,8 @@
 @import "footer";
 @import "variables";
 @import "buttons";
+@import "carousel";
+@import "ursStyle";
 //base
 * {
   box-sizing: border-box;
@@ -13,9 +15,9 @@ html {
   line-height: 1.6;
 
   //magic?
-  @media (max-width: 1200px) {
-    font-size: calc(10px + 0.2vw);
-  }
+  // @media (max-width: 1200px) {
+  //   font-size: calc(10px + 0.2vw);
+  // }
 }
 
 body {
@@ -24,7 +26,10 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   font-family: $techfont;
 }
 

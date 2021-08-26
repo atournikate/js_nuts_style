@@ -3,70 +3,151 @@
   require_once 'header.inc.php';
 
 ?>
+
+<!--BUTTON!!! -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+ 
+
+<!--CAROUSEEL! -->
+
+<div id="myCarousel" class="carousel slide d-flex mx-auto" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner mx-auto">
+    <div class="carousel-item active">
+      <img src="/projects/js_nutshell/images/atmospheric.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Opportunity Zürich</h5>
+        <p>Established in Spring of 2021 as part of the bla bla bla program.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/projects/js_nutshell/images/exJS_what.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Challenge</h5>
+        <p>The program has a plan of training front- and back-end web developers over the course of 8 months of intensive learning and group projects.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/projects/js_nutshell/images/exampleCode.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Dedication</h5>
+        <p>This website is a combined group project to create a library of basic and advanced JavaScript functions.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+         
     
-
-    <div id="slider1" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#slider1" data-slide-to="0" class="active"></li>
-        <li data-target="#slider1" data-slide-to="1"></li>
-        <li data-target="#slider1" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">b5-carousel-item</div>
-      <a
-        class="carousel-control-prev"
-        href="#slider1"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a
-        class="carousel-control-next"
-        href="#slider1"
-        role="button"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-
+    <!-- Teaser -->
     <div class="teaser">
+      <p>Short summary of your subject</p>
+    </div>
+
+    <!-- article -->
+    <div class="article">
+      <h2>Header 2 Something Cool</h2>
+
       <p>
-        This is text here. Prow scuttle parrel provost Sail ho shrouds spirits
-        boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's
-        nest nipperkin grog yardarm hempen halter furl. Swab barque interloper
-        chantey doubloon starboard grog black jack gangway rutters.
+        Icing jelly beans I love gummi bears wafer pudding jelly-o cotton candy.
+        Dragée cotton candy cake I love halvah powder donut. Powder halvah
+        pastry chocolate cake pudding I love I love croissant I love.
+      </p>
+
+      <h3>Heading 3 More Bla stuff</h3>
+
+      <p>
+        I love macaroon dragée liquorice pudding fruitcake I love jelly. I love
+        dessert danish jelly marzipan pastry muffin marzipan. Jelly bonbon sweet
+        bonbon jelly-o donut powder.
       </p>
     </div>
 
-    <article>
-      <h2>This is a Header 2</h2>
+    <div class="article">
+      <h2>Header 2 Something Cool</h2>
+
       <p>
-        Deadlights jack lad schooner scallywag dance the hempen jig carouser
-        broadside cable strike colors. Bring a spring upon her cable holystone
-        blow the man down spanker Shiver me timbers to go on account lookout
-        wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot
-        yardarm spyglass sheet transom heave to.
+        Icing jelly beans I love gummi bears wafer pudding jelly-o cotton candy.
+        Dragée cotton candy cake I love halvah powder donut. Powder halvah
+        pastry chocolate cake pudding I love I love croissant I love.
       </p>
-    </article>
+
+      <h3>Heading 3 More Bla stuff</h3>
+
+      <p>
+        I love macaroon dragée liquorice pudding fruitcake I love jelly. I love
+        dessert danish jelly marzipan pastry muffin marzipan. Jelly bonbon sweet
+        bonbon jelly-o donut powder.
+      </p>
+    </div>
+    <div class="article">
+      <h2>Header 2 Something Cool</h2>
+
+      <p>
+        Icing jelly beans I love gummi bears wafer pudding jelly-o cotton candy.
+        Dragée cotton candy cake I love halvah powder donut. Powder halvah
+        pastry chocolate cake pudding I love I love croissant I love.
+      </p>
+
+      <h3>Heading 3 More Bla stuff</h3>
+
+      <p>
+        I love macaroon dragée liquorice pudding fruitcake I love jelly. I love
+        dessert danish jelly marzipan pastry muffin marzipan. Jelly bonbon sweet
+        bonbon jelly-o donut powder.
+      </p>
+    </div>
+    <div class="article">
+      <h2>Header 2 Something Cool</h2>
+
+      <p>
+        Icing jelly beans I love gummi bears wafer pudding jelly-o cotton candy.
+        Dragée cotton candy cake I love halvah powder donut. Powder halvah
+        pastry chocolate cake pudding I love I love croissant I love.
+      </p>
+
+      <h3>Heading 3 More Bla stuff</h3>
+
+      <p>
+        I love macaroon dragée liquorice pudding fruitcake I love jelly. I love
+        dessert danish jelly marzipan pastry muffin marzipan. Jelly bonbon sweet
+        bonbon jelly-o donut powder.
+      </p>
+    </div>
+
+
+    <!-- Code Area -->
     <div class="codeArea">
-      <h3>Header 3 for some reasons</h3>
+      <h2>Heading 2 Code area stuff</h2>
+
       <p>
-        Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway.
-        Case shot Shiver me timbers gangplank crack Jennys tea cup ballast
-        Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas
-        boatswain schooner gaff booty Jack Tar transom spirits.
+        Cheesecake lollipop jelly-o brownie powder marshmallow icing carrot cake
+        chocolate bar. I love cake muffin tootsie roll bear claw jujubes
+        marshmallow oat cake topping. Tart gummi bears sesame snaps I love
+        pastry.
       </p>
+
       <div class="container">
         <pre>
-                code here
-            </pre
-        >
+            Code here Chocolate cake I love lollipop cookie marzipan topping chocolate bar cupcake.<br> Tiramisu marshmallow pastry chocolate cake cake tart dragée apple pie candy.<br> Fruitcake cupcake brownie ice cream tiramisu I love cake brownie I love.
+        </pre>
         <button class="btn btn-run"></button>
       </div>
     </div>
+
+    <!-- Table of Content -->
     <div class="toc">
       <ul>
         <li><a href="#">link 1</a></li>

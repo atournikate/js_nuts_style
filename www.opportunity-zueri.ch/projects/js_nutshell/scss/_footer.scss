@@ -6,4 +6,9 @@ footer {
   margin-top: auto;
   bottom: 0;
   background-color: $dkgreen;
+  color: $gold;
+
+  p {
+    align-items: center;
+  }
 }

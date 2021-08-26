@@ -10,46 +10,69 @@
  
 
 <!--CAROUSEEL! -->
+<div id="myCarousel" class="carousel slide carousel-fade pb-5" data-ride="carousel">
 
-<div id="myCarousel" class="carousel slide d-flex mx-auto" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner mx-auto">
-    <div class="carousel-item active">
-      <img src="/projects/js_nutshell/images/atmospheric.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Opportunity Zürich</h5>
-        <p>Established in Spring of 2021 as part of the bla bla bla program.</p>
+   <ol class="carousel-indicators">
+      <li data-target="$myCarousel"
+          data-slide-to="0" class="active"></li>
+      <li data-target="$myCarousel"
+          data-slide-to="1"></li>
+      <li data-target="$myCarousel"
+          data-slide-to="2"></li>  
+    </ol>
+
+<div class="carousel-inner">
+
+      <div class="carousel-item active" data-interval="3000">
+        <div class="overlay-image"  style="background-image: url(/projects/js_nutshell/images/exJS_what.png);"></div>
+           <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Opportunity Zürich</h5>
+                <p>Established in Spring of 2021 as part of the bla bla bla program.</p>
+            </div>
+          </div>
       </div>
-    </div>
-    <div class="carousel-item">
-      <img src="/projects/js_nutshell/images/exJS_what.png" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Challenge</h5>
-        <p>The program has a plan of training front- and back-end web developers over the course of 8 months of intensive learning and group projects.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="/projects/js_nutshell/images/exampleCode.png" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Dedication</h5>
-        <p>This website is a combined group project to create a library of basic and advanced JavaScript functions.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-         
+
+    <div class="carousel-item " data-interval="3000" >
+        <div class="overlay-image"  style="background-image: url(projects/js_nutshell/images/atmospheric.jpg);"></div>
+          <div class="container">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Challenge</h5>
+              <p>The program has a plan of training front- and back-end web developers over the course of 8 months of intensive learning and group projects.</p>
+            </div>
+          </div>
+     </div>
+
+    <div class="carousel-item" data-interval="3000">
+        <div class="overlay-image"  style="background-image: url(/projects/js_nutshell/images/exampleCode.png);">
+         </div>
+          <div class="container conteiner">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Dedication</h5>
+              <p>This website is a combined group project to create a library of basic and advanced JavaScript functions.</p>
+            </div>
+         </div>
+    </div>   
+
+  <!-- 3 Comandos del carusel -->
+  <a href="#myCarousel"
+               class="carousel-control-prev" role="button"
+               data-slide="prev"> 
+               <span class="sr-only"></span>
+               <span class="carousel-control-prev-icon"
+                aria-hidden="true"></span>
+</a>
+   <a href="#myCarousel"
+                 class="carousel-control-next" role="button"
+                 data-slide="next"> 
+                <span class="sr-only"></span>
+                <span class="carousel-control-next-icon"
+                 aria-hidden="true"></span>
+    </a>
+
+  </div>  
+ </div>
+</div>      
     
     <!-- Teaser -->
     <div class="teaser">

@@ -109,6 +109,7 @@ header {
     z-index: 5;
     font-weight: bold;
     width: max-content;
+    letter-spacing: 0;
   }
 
   .slide-in-fwd-center {
@@ -138,6 +139,7 @@ header {
     100% {
       -webkit-transform: translateZ(0);
       transform: translateZ(0);
+      letter-spacing: 3px;
       opacity: 1;
     }
   }
@@ -150,6 +152,7 @@ header {
     100% {
       -webkit-transform: translateZ(0);
       transform: translateZ(0);
+      letter-spacing: 3px;
       opacity: 1;
     }
   }

@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="/projects/js_nutshell/css/mainStyle.css" />
   </head>
   <body>
-    <div class="colorbar"></div>
-    <header>
+    <!-- <div class="colorbar gradient"></div> -->
+    <header class="gradient">
       <img  id='logo' src="/projects/js_nutshell/images/javacorn.png" alt="A JavaScript logo shaped to replicate an acorn"> 
       <a href="home.php">
       </a>
-      <h1>Header 1 Here</h1>
-      <nav class="navbar navbar-expand-sm">
+      <h1 class="d-flex align-items-center">JavaScript in a Nutshell</h1> <br>
+      <!-- <nav class="navbar navbar-expand-sm">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">primary</a>
           <img src="" alt="" class="siteLogo" />
@@ -38,6 +38,5 @@
             </div>
           </div>
         </div>
-      </nav>
-      <button class="btn">Click</button>
+      </nav> -->
     </header>

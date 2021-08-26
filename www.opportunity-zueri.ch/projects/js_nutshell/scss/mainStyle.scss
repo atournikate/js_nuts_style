@@ -1,4 +1,4 @@
-// @import 'header';
+@import "header";
 @import "footer";
 @import "variables";
 @import "buttons";
@@ -15,41 +15,6 @@ html {
 
 body {
   background-color: $ltgreen;
-}
-
-.colorbar {
-  width: 100vw;
-  height: 50px;
-  background-color: linear-gradient(to bottom, $dkgreen, $mdgreen, $ltgreen);
-}
-
-header {
-  display: flex;
-  width: 100vw;
-  background-color: $ltgreen;
-  color: $dkgreen;
-
-  #logo {
-    position: relative;
-    padding: 0px 0px 0px 5px;
-    height: 250px;
-    animation-name: logo;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: ease-in-out;
-  }
-  @keyframes logo {
-    0% {
-      transform: rotate(12deg);
-      left: 18px;
-    }
-
-    100% {
-      transform: rotate(8deg);
-      left: 35px;
-    }
-  }
 }
 
 h1,

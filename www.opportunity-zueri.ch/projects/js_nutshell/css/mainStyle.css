@@ -1,32 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-footer {
-  width: 100vw;
-  position: fixed;
-  margin-top: auto;
-  bottom: 0;
-  background-color: #162f21; }
-
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .btn {
   width: 100px;
   height: 50px;
-  background-color: #f8c925; }
+  cursor: pointer;
+  background-color: #f8c925;
+  color: #753205;
+  letter-spacing: 0; }
+  .btn:hover {
+    background-color: #162f21;
+    color: #f5741e;
+    letter-spacing: 3px;
+    transform: scale(0.9);
+    transition: all 0.5s ease-in-out; }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0; }
-
-html {
-  line-height: 1.6; }
-
-body {
-  background-color: #e7f0eb; }
-
-.colorbar {
-  width: 100vw;
-  height: 50px;
-  background-color: linear-gradient(to bottom, #162f21, #506a54, #e7f0eb); }
+/* Mixin to create vertical, horizontal or radial gradient */
+/* Usage */
+.gradient {
+  background: #506a54;
+  /* Vertical gradient */
+  background: linear-gradient(to bottom, #506a54, #e7f0eb); }
 
 header {
   display: flex;
@@ -49,6 +43,42 @@ header {
   100% {
     transform: rotate(8deg);
     left: 35px; } }
+  header h1 {
+    z-index: 2;
+    font-weight: bold; }
+
+footer {
+  width: 100vw;
+  position: fixed;
+  margin-top: auto;
+  bottom: 0;
+  background-color: #162f21; }
+
+.btn {
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #f8c925;
+  color: #753205;
+  letter-spacing: 0; }
+  .btn:hover {
+    background-color: #162f21;
+    color: #f5741e;
+    letter-spacing: 3px;
+    transform: scale(0.9);
+    transition: all 0.5s ease-in-out; }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+html {
+  line-height: 1.6; }
+
+body {
+  background-color: #e7f0eb; }
+
 h1,
 h2,
 h3 {

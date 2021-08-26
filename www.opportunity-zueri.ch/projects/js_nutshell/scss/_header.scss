@@ -1,0 +1,56 @@
+@import "variables";
+@import "buttons";
+
+/* Mixin to create vertical, horizontal or radial gradient */
+@mixin gradient($start-color, $end-color, $orientation) {
+  background: $start-color;
+  @if $orientation == "vertical" {
+    /* Vertical gradient */
+    background: linear-gradient(to bottom, $start-color, $end-color);
+  } @else if $orientation == "horizontal" {
+    /* Horizontal gradient */
+    background: linear-gradient(to right, $start-color, $end-color);
+  } @else {
+    /* Radial gradient */
+    background: radial-gradient(ellipse at center, $start-color, $end-color);
+  }
+}
+
+/* Usage */
+.gradient {
+  @include gradient($mdgreen, $ltgreen, vertical);
+}
+
+header {
+  display: flex;
+  width: 100vw;
+  background-color: $ltgreen;
+  color: $dkgreen;
+
+  #logo {
+    position: relative;
+    padding: 0px 0px 0px 5px;
+    height: 250px;
+    animation-name: logo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+  }
+  @keyframes logo {
+    0% {
+      transform: rotate(12deg);
+      left: 18px;
+    }
+
+    100% {
+      transform: rotate(8deg);
+      left: 35px;
+    }
+  }
+
+  h1 {
+    z-index: 2;
+    font-weight: bold;
+  }
+}

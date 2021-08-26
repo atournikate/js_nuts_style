@@ -11,32 +11,15 @@
   <body>
     <!-- <div class="colorbar gradient"></div> -->
     <header class="gradient">
+     
+      <div class="image">
       <img  id='logo' src="/projects/js_nutshell/images/javacorn.png" alt="A JavaScript logo shaped to replicate an acorn"> 
       <a href="home.php">
       </a>
-      <h1 class="d-flex align-items-center">JavaScript in a Nutshell</h1> <br>
-      <!-- <nav class="navbar navbar-expand-sm">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">primary</a>
-          <img src="" alt="" class="siteLogo" />
+      </div>
+      <div class="wrapper d-flex m-auto align-items-center">
 
-          <button
-            class="btn navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarID"
-            aria-controls="navbarID"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarID">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </div>
-          </div>
-        </div>
-      </nav> -->
+        <h1 class="typing-demo d-flex m-auto align-items-center">JavaScript in a Nutshell</h1> <br>
+        
+      </div>
     </header>

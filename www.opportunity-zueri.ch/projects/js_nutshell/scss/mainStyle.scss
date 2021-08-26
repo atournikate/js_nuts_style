@@ -11,6 +11,11 @@
 
 html {
   line-height: 1.6;
+
+  //magic?
+  @media (max-width: 1200px) {
+    font-size: calc(10px + 0.2vw);
+  }
 }
 
 body {

@@ -25,12 +25,17 @@
 header {
   display: flex;
   width: 100vw;
+  min-height: 10vh;
   background-color: #e7f0eb;
-  color: #162f21; }
+  color: #162f21;
+  border-radius: 0 0 85% 85% / 30%; }
+  header image {
+    min-width: 10vw; }
   header #logo {
     position: relative;
     padding: 0px 0px 0px 5px;
-    height: 250px;
+    width: 100%;
+    height: auto;
     animation-name: logo;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -45,8 +50,23 @@ header {
     left: 35px; } }
   header h1 {
     z-index: 2;
-    font-weight: bold; }
-
+    font-weight: bold;
+    overflow-wrap: anywhere; }
+  header .typing-demo {
+    width: 24ch;
+    animation: typing 4s steps(24), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    word-wrap: break-word;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em; }
+@keyframes typing {
+  from {
+    width: 0; } }
+@keyframes blink {
+  50% {
+    border-color: transparent; } }
 footer {
   width: 100vw;
   position: fixed;
@@ -75,6 +95,9 @@ footer {
 
 html {
   line-height: 1.6; }
+  @media (max-width: 1200px) {
+    html {
+      font-size: calc(10px + 0.2vw); } }
 
 body {
   background-color: #e7f0eb; }

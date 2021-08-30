@@ -2,6 +2,12 @@
   require_once $_SERVER['HOME'].'/projects/js_nutshell/config.php';
   require_once 'header.inc.php';
 
+  // Used to add related links to the table content 
+  $rel_links = [
+    'topic.A.name.php',
+    'topic.A.name.php'
+  ];
+
 ?>
 
 
@@ -40,24 +46,33 @@
         pastry.
       </p>
 
-      <div class="container">
-        <pre>
-            Code here Chocolate cake I love lollipop cookie marzipan topping chocolate bar cupcake.<br> Tiramisu marshmallow pastry chocolate cake cake tart dragée apple pie candy.<br> Fruitcake cupcake brownie ice cream tiramisu I love cake brownie I love.
-        </pre>
-        <button class="btn btn-run"></button>
-      </div>
-    </div>
+      <div class="codeArea flex-container codeExample">
+              <div class="col-6 code">
+                <pre>
+                  <code class = "language-css">
+                    let a = 4;
+                    let b = 17;
 
-    <!-- Table of Content -->
-    <div class="toc">
-      <ul>
-        <li><a href="#">link 1</a></li>
-        <li><a href="#">link 2</a></li>
-        <li><a href="#">link 3</a></li>
-        <li><a href="#">link 4</a></li>
-        <li><a href="#">link 5</a></li>
-        <li><a href="#">link 6</a></li>
-      </ul>
+                    /*  statement string with math expression placeholders that
+                        will be replaced by their respective results */
+                    let statement = `Twenty-one is ${a + b} and not ${2 * a + b}.`;
+
+                    console.log(statement);  
+                  </code>
+                </pre>
+              </div>
+              
+            <div class="col-6 output">
+              <h4>Output:</h4>
+              
+              <div id="outputbmi"></div>
+             
+              <button class="btn btn-run" onclick="run(this)">Run</button>
+              <button class="btn btn-run" onclick="reset(this)">Reset</button>
+            </div>
+      </div>
+
+      
     </div>
 
     <?php include 'footer.inc.php'; ?>

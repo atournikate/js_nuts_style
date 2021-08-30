@@ -40,3 +40,8 @@
   </button>
 </div>
       
+<script defer>
+
+    console.log(document.getElementById("myHome"));
+    
+</script>

@@ -1,15 +1,16 @@
 .btn {
-  width: 100px;
-  height: 50px;
+  width: 120px;
+  height: 70px;
   cursor: pointer;
   background-color: $gold;
   color: $brick;
   letter-spacing: 0;
+  margin: 10px 20px;
 
   &:hover {
     background-color: $brick;
     color: lighten($brick, 30%);
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     transform: scale(0.99);
     transition: all 1s ease-in-out;
   }

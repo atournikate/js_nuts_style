@@ -14,6 +14,12 @@ function scrollFunction() {
   }
 }
 
+var myHome = document.getElementById("myHome");
+
+if (window.location.pathname === "/projects/js_nutshell/home.php") {
+  myHome.style.display = "none";
+}
+
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;

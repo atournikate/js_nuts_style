@@ -4,16 +4,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 .btn, .btn-menu, .btn-topic {
-  width: 100px;
-  height: 50px;
+  width: 120px;
+  height: 70px;
   cursor: pointer;
   background-color: #f8c925;
   color: #753205;
-  letter-spacing: 0; }
+  letter-spacing: 0;
+  margin: 10px 20px; }
   .btn:hover, .btn-menu:hover, .btn-topic:hover {
     background-color: #753205;
     color: #f5741e;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     transform: scale(0.99);
     transition: all 1s ease-in-out; }
 
@@ -140,21 +141,21 @@ footer {
   margin-top: auto;
   bottom: 0;
   background-color: #162f21;
-  color: #f8c925; }
-  footer p {
-    align-items: center; }
+  color: #f8c925;
+  align-items: center; }
 
 .btn, .btn-menu, .btn-topic {
-  width: 100px;
-  height: 50px;
+  width: 120px;
+  height: 70px;
   cursor: pointer;
   background-color: #f8c925;
   color: #753205;
-  letter-spacing: 0; }
+  letter-spacing: 0;
+  margin: 10px 20px; }
   .btn:hover, .btn-menu:hover, .btn-topic:hover {
     background-color: #753205;
     color: #f5741e;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     transform: scale(0.99);
     transition: all 1s ease-in-out; }
 
@@ -186,12 +187,12 @@ footer {
     text-shadow: 1px 2px 4px black;
     background-color: #e7f0eb; }
 
-#myBtn {
+#myBtn, #myHome {
   display: none;
   /* Hidden by default */
   position: fixed;
   /* Fixed/sticky position */
-  bottom: 50px;
+  bottom: 75px;
   /* Place the button at the bottom of the page */
   right: 30px;
   /* Place the button 30px from the right */
@@ -207,17 +208,24 @@ footer {
   /* Text color */
   cursor: pointer;
   /* Add a mouse pointer on hover */
-  padding: 17px;
-  /* Some padding */
-  border-radius: 55%;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  box-shadow: 3px 5px 5px #162f21;
+  border-radius: 50%;
   /* Rounded corners */
   font-family: "Courier Prime", monospace;
   font-size: 18px;
   /* Increase font size */ }
-  #myBtn:hover {
+  #myBtn:hover, #myHome:hover {
     background-color: #506a54;
     /* light green while hovering the mouse */
     color: #fbe188; }
+
+#myHome {
+  display: block;
+  bottom: 75px;
+  left: 30px; }
 
 .menu {
   margin-bottom: 100px; }

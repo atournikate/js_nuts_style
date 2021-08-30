@@ -3,7 +3,7 @@
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 50px; /* Place the button at the bottom of the page */
+  bottom: 75px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
@@ -11,8 +11,11 @@
   background-color: $dkgreen; /* Set a background color */
   color: $gold; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 17px; /* Some padding */
-  border-radius: 55%; /* Rounded corners */
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  box-shadow: 3px 5px 5px $dkgreen;
+  border-radius: 50%; /* Rounded corners */
 
   font-family: $techfont;
   font-size: 18px; /* Increase font size */
@@ -21,4 +24,11 @@
     background-color: $mdgreen; /* light green while hovering the mouse */
     color: lighten($gold, 20%);
   }
+}
+
+#myHome {
+  @extend #myBtn;
+  display: block;
+  bottom: 75px;
+  left: 30px;
 }

@@ -1,3 +1,5 @@
+@import "variables";
+
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -16,6 +18,7 @@
   font-size: 18px; /* Increase font size */
 
   &:hover {
-    background-color: #506a54; /* light green while hovering the mouse */
+    background-color: $mdgreen; /* light green while hovering the mouse */
+    color: lighten($gold, 20%);
   }
 }

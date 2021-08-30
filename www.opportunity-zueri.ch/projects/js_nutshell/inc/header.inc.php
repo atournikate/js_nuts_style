@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="/projects/js_nutshell/images/JSicon.png">
     <link rel="stylesheet" href="/projects/js_nutshell/css/bootstrap.css" />
     <link rel="stylesheet" href="/projects/js_nutshell/css/mainStyle.css" />
+    
   </head>
   <body>
     <!-- <div class="colorbar gradient"></div> -->
@@ -22,7 +23,6 @@
 
         <h1 class="typewriter m-auto align-self-end">JavaScript</h1>
         <p class="slide-in-fwd-center m-auto align-self-start fw-lighter">in a Nutshell</p>
-        
-      </div>
 
+        
     </header>

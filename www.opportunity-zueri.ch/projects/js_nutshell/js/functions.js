@@ -1,3 +1,32 @@
+//sidepanel navbar
+var menu = document.getElementsByClassName("menu");
+var ToC = document.getElementsByClassName("ToC");
+var xIcon = document.getElementsByClassName("xIcon");
+var menuIcon = document.getElementsByClassName("menuIcon");
+
+ToC.addEventListener("click", toggleMenu);
+
+menu.classList.contains("showMenu");
+
+function toggleMenu() {
+  if (menu.classList.contains("showMenu")) {
+    menu.classList.remove("showMenu");
+    xIcon.style.display = "none";
+    menuIcon.style.display = "block";
+  } else {
+    menu.classList.add("showMenu");
+    xIcon.style.display = "block";
+    menuIcon.style.display = "none";
+  }
+}
+
+var menuLinks = document.querySelectorAll(".menuLink");
+
+menuLinks.forEach(function (menuLink) {
+  menuLink.addEventListener("click", toggleMenu);
+});
+
+//BACK TO TOP BUTTON
 var mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button

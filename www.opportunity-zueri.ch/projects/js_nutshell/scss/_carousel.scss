@@ -8,13 +8,13 @@
   }
 
   .carousel-item {
-    width: 100%;
-    height: 400px;
+    max-height: 400px;
   }
 
   .carousel-caption {
     padding: 5px;
-    color: $gold;
-    text-shadow: 1px 2px 2px $brick;
+    color: $dkgreen;
+    text-shadow: 1px 2px 4px darken($dkgreen, 20%);
+    background-color: $ltgreen;
   }
 }

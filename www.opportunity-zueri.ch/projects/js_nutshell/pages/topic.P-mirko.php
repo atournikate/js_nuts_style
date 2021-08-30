@@ -1,6 +1,6 @@
 <?php 
-  require_once $_SERVER['HOME'].'/projects/js_nutshell/config.php';
-  require_once $_SERVER['HOME'].'/projects/js_nutshell/inc/header.inc.php';
+  require_once $_SERVER['CONTEXT_DOCUMENT_ROOT'].'/projects/js_nutshell/config.php';
+  require_once $_SERVER['CONTEXT_DOCUMENT_ROOT'].'/projects/js_nutshell/inc/header.inc.php';
   ?>
 
     <main>
@@ -102,4 +102,4 @@ function run() {
         <!-- Loading the JavaScript for the Topic -->
     <script src="/projects/js_nutshell/js/topic.P-mirko.js"></script>
     
-    <?php include $_SERVER['HOME'].'/projects/js_nutshell/inc/footer.inc.php'; ?>
+    <?php include $_SERVER['CONTEXT_DOCUMENT_ROOT'].'/projects/js_nutshell/inc/footer.inc.php'; ?>

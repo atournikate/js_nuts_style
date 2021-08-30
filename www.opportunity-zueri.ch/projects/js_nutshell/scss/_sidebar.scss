@@ -3,11 +3,12 @@
   z-index: 100;
   top: 1rem;
   right: 1rem;
-  width: 1rem;
-  height: 1rem;
+  width: 3rem;
+  height: 3rem;
+  border: $mdgreen solid 1px;
+  background: $mdgreen;
   cursor: pointer;
 }
-
 .xIcon {
   display: none;
 }
@@ -30,4 +31,19 @@
 
 .showToC {
   transform: translateY(0);
+}
+
+li {
+  padding: 1rem 0;
+}
+
+.menuLink {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: $ltgreen;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }

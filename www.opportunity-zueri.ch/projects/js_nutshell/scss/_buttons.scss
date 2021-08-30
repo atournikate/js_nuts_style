@@ -14,3 +14,8 @@
     transition: all 0.5s ease-in-out;
   }
 }
+
+.btn-ToC {
+  @extend .btn;
+  color: $ltgreen;
+}

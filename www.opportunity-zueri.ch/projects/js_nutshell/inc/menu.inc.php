@@ -26,7 +26,7 @@
   <div class="collapseMenu">
     <h2>
       <button class="btn btn-menu" type="button" data-bs-toggle="collapse" data-bs-target="#advMenu" aria-expanded="false" aria-controls="advMenu">
-      BASICS
+      ADVANCED
       </button>
     </h2> 
     <div class="collapse" id="advMenu">

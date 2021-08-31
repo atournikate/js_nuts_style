@@ -1,6 +1,6 @@
 <?php 
-  require_once $_SERVER['HOME'].'/projects/js_nutshell/config.php';
-  require_once $_SERVER['HOME'].'/projects/js_nutshell/inc/header.inc.php';
+  require_once '../config.php';
+  require_once 'header.inc.php';
   ?>
 
     <main>
@@ -122,4 +122,4 @@ function addText() {
         <!-- Loading the JavaScript for the Topic -->
     <script src="/projects/js_nutshell/js/topic.Q-gonzalo.js"></script>
         
-    <?php include $_SERVER['HOME'].'/projects/js_nutshell/inc/footer.inc.php'; ?>
+    <?php require_once 'footer.inc.php'; ?>

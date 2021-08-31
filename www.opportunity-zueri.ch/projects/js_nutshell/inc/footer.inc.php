@@ -1,9 +1,8 @@
 <!--BUTTON!!! -->
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-<button id="myHome" title="Back to Home" href="/projects/js_nutshell/home.php">Home</button>
+<a href="https://opportunity-zueri.ch/projects/js_nutshell/home.php"><button id="myHome" title="Back to Home">Home</button></a>
 
 <div class="breakbar"></div>
-
 <footer class="d-flex mt-5 justify-content-center align-items-end text-center">
       <p class="mt-3">Created by Opportunity Zürich, 2021</p>
     </footer>

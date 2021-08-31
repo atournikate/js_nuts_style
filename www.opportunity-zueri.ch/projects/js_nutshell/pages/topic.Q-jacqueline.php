@@ -18,7 +18,7 @@ require_once 'header.inc.php';
             </p>
         </div>
     
-        <div class="codeArea flex-container codeExample">
+        <div class="row">
             <div class="col-md-6 col-sm-12 code">
                 <h4>Code:</h4>
                 <pre>

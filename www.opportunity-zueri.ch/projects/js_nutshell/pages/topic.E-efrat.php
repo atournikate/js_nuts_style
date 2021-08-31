@@ -252,7 +252,7 @@ function run() {
             <div class="col-6 output">
                 <h4>Output:</h4>
                 <p>        
-                    <code class="language-html"></code>
+                    <code class="language-js"></code>
                 </p>
                 <button name="run1" onclick="runScript(3, this);">Run Script</button>
                 <button name="reset1" onclick="reset(3, this);">Reset Script</button>
@@ -321,7 +321,7 @@ function run() {
             <div class="col-6 output">
                 <h4>Output:</h4>
                 <p>        
-                    <code class="language-html"></code>
+                    <code class="language-js"></code>
                 </p>
                 <button name="run1" onclick="runScript(4, this);">Run Script</button>
                 <button name="reset1" onclick="reset(4, this);">Reset Script</button>
@@ -391,7 +391,7 @@ function run() {
     }-6 output">
             <h4>Output:</h4>
             </code> </pre>       
-                <code class="language-html"></code>
+                <code class="language-js"></code>
             
             <button name="run1" onclick="runScript(5, this);">Run Script</button>
             <button name="reset1" onclick="reset(5, this);">Reset Script</button>
@@ -433,7 +433,7 @@ document.getElementbyId('output').innerHTML = text;
         <div class="col-6 output">
             <h4>Output:</h4>
             <p>        
-                <code class="language-html"></code>
+                <code class="language-js"></code>
             </p>
             <button name="run1" onclick="runScript(6, this);">Run Script</button>
             <button name="reset1" onclick="reset(6, this);">Reset Script</button>

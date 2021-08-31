@@ -1,6 +1,6 @@
 <?php 
-  require_once $_SERVER['CONTEXT_DOCUMENT_ROOT'].'/projects/js_nutshell/config.php';
-  require_once $_SERVER['CONTEXT_DOCUMENT_ROOT'].'/projects/js_nutshell/inc/header.inc.php';
+  require_once '../config.php';
+  require_once 'header.inc.php';
   ?>
 
     <main>
@@ -26,7 +26,7 @@
                 <p>
                     In this exaple we will use to try to run a not defined function abracadabra. The catch will then store the error and we will output the error message.
                 </p>
-                <div class="col-6 code">
+                <div class="col-6-md col-12-sm code">
                     <h4>Code:</h4>
                     <p>
                         <!-- CODE -->
@@ -45,7 +45,7 @@
                         </code>
                     </p>
                 </div>
-                <div class="col-6 output">
+                <div class="col-6-md col-12-sm output">
                     <h4>Output:</h4>
                     <p>        
                         <code class="language-html"></code>
@@ -70,7 +70,7 @@
                 Lets define a variable number and give it the value of 13, the tryblock then will throw in a error if
                 the number is not greater then 100.
                 </p>
-                <div class="col-6 code">
+                <div class="col-6-md col-12-sm code">
                     <h4>Code:</h4>
                     <p>
                         <!-- CODE -->
@@ -88,7 +88,7 @@ function run() {
                         </pre></code>
                     </p>
                 </div>
-                <div class="col-6 output">
+                <div class="col-6-md col-12-sm output">
                     <h4>Output:</h4>
                     <p>        
                         <code class="language-html"></code>
@@ -102,4 +102,4 @@ function run() {
         <!-- Loading the JavaScript for the Topic -->
     <script src="/projects/js_nutshell/js/topic.P-mirko.js"></script>
     
-    <?php include $_SERVER['CONTEXT_DOCUMENT_ROOT'].'/projects/js_nutshell/inc/footer.inc.php'; ?>
+    <?php require_once 'footer.inc.php'; ?>

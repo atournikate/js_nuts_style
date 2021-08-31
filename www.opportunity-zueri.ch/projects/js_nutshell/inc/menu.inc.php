@@ -44,7 +44,7 @@
         <a href="/projects/js_nutshell/pages/topic.R-nico.php"><button class="btn btn-topic" >Style Manipulation Nico</button></a>
         <a href="/projects/js_nutshell/pages/topic.R-jacqueline.php"><button class="btn btn-topic" >Style Manipulation Jacqueline</button></a>
         <a href="/projects/js_nutshell/pages/topic.S-chris.php"><button class="btn btn-topic" >Template Strings</button></a>
-        <a href="/projects/js_nutshell/pages/topic.T-hamza.php"><button class="btn btn-topic" >Local Storage Hamza</button></a>
+        <a href="/projects/js_nutshell/pages/topic.T-hamza.php"><button class="btn btn-topic" >Time & Date Hamza</button></a>
         <a href="/projects/js_nutshell/pages/topic.T-ksenia.php"><button class="btn btn-topic" >Local Storage Ksenia</button></a>
         <a href="/projects/js_nutshell/pages/topic.U-gonzalo.php"><button class="btn btn-topic" >setTimeout, setInterval</button></a>
   

@@ -1,16 +1,12 @@
 <?php 
-  require_once $_SERVER['CONTEXT_DOCUMENT_ROOT'].'/projects/js_nutshell/config.php';
-  require_once $_SERVER['CONTEXT_DOCUMENT_ROOT'].'/projects/js_nutshell/inc/header.inc.php';
+  require_once 'config.php';
+  require_once 'header.inc.php';
   ?>
 
 <?php 
-  require_once $_SERVER['CONTEXT_DOCUMENT_ROOT'].'/projects/js_nutshell/inc/carousel.inc.php';
-  require_once $_SERVER['CONTEXT_DOCUMENT_ROOT'].'/projects/js_nutshell/inc/menu.inc.php';
+  require_once 'carousel.inc.php';
+  require_once 'menu.inc.php';
   ?>
 
-
-    
-
-
-    <?php include $_SERVER['CONTEXT_DOCUMENT_ROOT'].'/projects/js_nutshell/inc/footer.inc.php'; ?>
+<?php include 'footer.inc.php'; ?>
     

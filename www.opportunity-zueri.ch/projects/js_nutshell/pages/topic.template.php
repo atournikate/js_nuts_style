@@ -1,6 +1,6 @@
 <?php 
-  require_once $_SERVER['CONTEXT_DOCUMENT_ROOT'].'/projects/js_nutshell/config.php';
-  require_once $_SERVER['CONTEXT_DOCUMENT_ROOT'].'/projects/js_nutshell/inc/header.inc.php';
+  require_once $_SERVER['HOME'].'/projects/js_nutshell/config.php';
+  require_once 'header.inc.php';
 
   // Used to add related links to the table content 
   $rel_links = [
@@ -75,4 +75,4 @@
       
     </div>
 
-    <?php include $_SERVER['CONTEXT_DOCUMENT_ROOT'].'/projects/js_nutshell/inc/footer.inc.php'; ?>
+    <?php include 'footer.inc.php'; ?>

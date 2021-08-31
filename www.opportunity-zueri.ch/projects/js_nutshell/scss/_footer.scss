@@ -1,5 +1,10 @@
 @import "variables";
 
+.breakbar {
+  height: 300px;
+  content: "";
+}
+
 footer {
   width: 100vw;
   position: fixed;

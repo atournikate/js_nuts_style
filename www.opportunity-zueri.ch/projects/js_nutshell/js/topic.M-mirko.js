@@ -52,8 +52,8 @@ function varExample1(target) {
     outputText += br;
     outputText += "Legal Driving Age: "+age+"<br>";
 
-    target.previousElementSibling.previousElementSibling.innerHTML = outputText;
-    console.log(target);
+    target.previousElementSibling.innerHTML = outputText;
+    console.log(target.previousElementSibling);
 }
 
 function arrayExample1(target) {
@@ -75,7 +75,7 @@ function arrayExample1(target) {
         outputText += "Job: " + person[3] + "<br>"
         outputText += "Country: " + person[4] + "<br>"
 
-    target.previousElementSibling.previousElementSibling.innerHTML = outputText;
+    target.previousElementSibling.innerHTML = outputText;
 }
 
 function arrayExample2(target) {
@@ -93,7 +93,7 @@ function arrayExample2(target) {
         outputText += element+"<br>";
     });
 
-    target.previousElementSibling.previousElementSibling.innerHTML = outputText;
+    target.previousElementSibling.innerHTML = outputText;
 }
 
 function multidimensional_arrayExample1(target) {
@@ -128,7 +128,7 @@ function multidimensional_arrayExample1(target) {
 
     outputText += "Users name is " + users[2][0] + " " + users[2][1]
     outputText += " Email: " + users[2][2] + "<br>"
-    target.previousElementSibling.previousElementSibling.innerHTML = outputText;
+    target.previousElementSibling.innerHTML = outputText;
 }
 
 function multidimensional_arrayExample1(target) {
@@ -163,7 +163,7 @@ function multidimensional_arrayExample1(target) {
 
     outputText += "Users name is " + users[2][0] + " " + users[2][1]
     outputText += " Email: " + users[2][2] + "<br>"
-    target.previousElementSibling.previousElementSibling.innerHTML = outputText;
+    target.previousElementSibling.innerHTML = outputText;
 }
 
 function multidimensional_arrayExample2(target) {
@@ -199,7 +199,7 @@ function multidimensional_arrayExample2(target) {
         });
         outputText += "<br>";
     });
-    target.previousElementSibling.previousElementSibling.innerHTML = outputText;
+    target.previousElementSibling.innerHTML = outputText;
 }
 
 function dataobjectExample1(target) {    
@@ -229,7 +229,7 @@ function dataobjectExample1(target) {
     outputText += "Lastame: " + obj.lastname + "<br>";
     outputText += "Email: " + obj.email + "<br>";
 
-    target.previousElementSibling.previousElementSibling.innerHTML = outputText;
+    target.previousElementSibling.innerHTML = outputText;
 }
 
 function dataobjectExample2(target) {
@@ -247,11 +247,11 @@ function dataobjectExample2(target) {
     outputText += "Lastame: " + obj.lastname + "<br>";
     outputText += "Email: " + obj.email + "<br>";
 
-    target.previousElementSibling.previousElementSibling.innerHTML = outputText;
+    target.previousElementSibling.innerHTML = outputText;
 }
 
 function reset(input, output) {
     
-    output.previousElementSibling.previousElementSibling.previousElementSibling.innerHTML = ""
+    output.previousElementSibling.previousElementSibling.innerHTML = ""
     /*console.log(output.previousElementSibling.previousElementSibling.previousElementSibling.innerHTML);*/
 }
